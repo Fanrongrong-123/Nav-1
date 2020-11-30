@@ -6,7 +6,9 @@ const xObject = JSON.parse(x) //字符串转换为对象
 const hashMap = xObject || [
     { logo: 'G', logoType: 'text', url: 'https://github.com/' },
     { logo: 'G', logoType: 'text', url: 'https://gitee.com/' },
-    { logo: 'I', logoType: 'text', url: 'https://www.iconfont.cn/' }
+    { logo: 'I', logoType: 'text', url: 'https://www.iconfont.cn/' },
+    { logo: 'J', logoType: 'text', url: 'https://www.jianshu.com/' },
+    { logo: 'C', logoType: 'text', url: 'https://cssgradient.io/' }
 ]
 
 const removeX = (url) => {
