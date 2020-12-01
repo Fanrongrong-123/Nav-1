@@ -69,12 +69,12 @@ window.onbeforeunload = () => {
 }
 
 
-$(document).on('keypress', (e) => {
-    console.log(e.key)
-    const { key } = e  //const key = e.key
-    for (let i = 0; i < hashMap.length; i++) {
-        if (hashMap[i].logo.toLowerCase() === key) { //将logo转化为小写再比较
-            window.open(hashMap[i].url)
-        }
-    }
-})
+// $(document).on('keypress', (e) => {
+//     console.log(e.key)
+//     const { key } = e  //const key = e.key
+//     for (let i = 0; i < hashMap.length; i++) {
+//         if (hashMap[i].logo.toLowerCase() === key) { //将logo转化为小写再比较
+//             window.open(hashMap[i].url)
+//         }
+//     }
+// })
